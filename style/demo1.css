@@ -1,0 +1,47 @@
+@charset "utf-8";
+ul{
+	margin: 0px;
+	padding: 0px;
+	
+}
+ul li{
+	height: 30px;
+	width: 150px;
+	list-style: none;
+	float:left;
+	display:inline;
+	background-color: #808080;
+	line-height: 29px;
+	border-right:1px solid  #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.nav{
+	
+	text-align:center;
+	line-height: 29px;
+	border-right:1px solid  #ccc;
+	border-bottom: 1px solid #ccc;
+	
+}
+.droplist{
+	list-style: none;
+	display:block;
+	text-align:center;
+	line-height: 29px;
+	border-right:1px solid  #ccc;
+	border-bottom: 1px solid #ccc;
+	
+}
+
+a{
+	text-align:center;
+}
+
+
+.droplist ul{
+	visibility:hidden;
+}
+.nav ul li:hover .droplist ul  {
+	visibility: visible;
+}
+

@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+ul{
+	margin: 0px;
+	padding: 0px;
+	
+}
+ul li{
+	width: 250px;
+	height: 30px;
+	list-style: none;
+	float:left;
+	display:inline;
+	background-color:white;
+	line-height: 29px;
+	border-right:1px solid  #ccc;
+	border-bottom: 1px solid #ccc;
+	
+
+}
+.nav{
+	text-align: center;
+	line-height: 29px;
+	border-right:1px solid  #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.droplist{
+	width: 250px;
+	height: 30px;
+	text-align: center;
+	line-height: 29px;
+	border-right:1px solid  #ccc;
+	border-bottom: 1px solid #ccc;
+	position: absolute;
+}
+ul li a{
+	text-align: center;
+}
+ul li .droplist{
+	visibility:hidden;
+}
+ul li:hover  .droplist{
+	visibility: visible;
+}
